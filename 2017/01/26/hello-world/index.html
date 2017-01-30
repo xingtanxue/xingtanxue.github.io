@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang="zh-CN">
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -74,6 +74,8 @@
 
 
 
+  <link rel="alternate" href="/atom.xml" title="XingtanXue" type="application/atom+xml" />
+
 
 
 
@@ -84,40 +86,37 @@
 
 
 
-<meta name="description" content="群里有个管理员自己做一个博客，并分享出来
-使用Hexo根据教程做的
-买了N多个域名，之前用WordPress做过一个，巨丑
-所以网上搜了一下
-使用github做服务器
-花两天时间完成
-用github、python、no.js等工具完成
+<meta name="description" content="有一天，
+群里有人用Hexo做一个博客，并分享出来。
+而自己之前买了N多域名，用WordPress做过一个功能一般的网站
+所以打算再做一个，于是网上搜了一下。
+使用github做服务器，花两天时间，
+用github、python、nodejs等工具完成。
 工具：Lean Cloud:统计UV多数：做评论百度：做数据统计
-安装过程：npm install hexo-cli -g -dhexo initnpm insta">
+安装过程：npm install hexo-cli -g -dhexo ini">
 <meta property="og:type" content="article">
 <meta property="og:title" content="XingtanXue网站由来">
 <meta property="og:url" content="http://www.xingtanxue.com/2017/01/26/hello-world/index.html">
 <meta property="og:site_name" content="XingtanXue">
-<meta property="og:description" content="群里有个管理员自己做一个博客，并分享出来
-使用Hexo根据教程做的
-买了N多个域名，之前用WordPress做过一个，巨丑
-所以网上搜了一下
-使用github做服务器
-花两天时间完成
-用github、python、no.js等工具完成
+<meta property="og:description" content="有一天，
+群里有人用Hexo做一个博客，并分享出来。
+而自己之前买了N多域名，用WordPress做过一个功能一般的网站
+所以打算再做一个，于是网上搜了一下。
+使用github做服务器，花两天时间，
+用github、python、nodejs等工具完成。
 工具：Lean Cloud:统计UV多数：做评论百度：做数据统计
-安装过程：npm install hexo-cli -g -dhexo initnpm insta">
-<meta property="og:updated_time" content="2017-01-30T04:50:18.841Z">
+安装过程：npm install hexo-cli -g -dhexo ini">
+<meta property="og:updated_time" content="2017-01-30T12:03:24.022Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="XingtanXue网站由来">
-<meta name="twitter:description" content="群里有个管理员自己做一个博客，并分享出来
-使用Hexo根据教程做的
-买了N多个域名，之前用WordPress做过一个，巨丑
-所以网上搜了一下
-使用github做服务器
-花两天时间完成
-用github、python、no.js等工具完成
+<meta name="twitter:description" content="有一天，
+群里有人用Hexo做一个博客，并分享出来。
+而自己之前买了N多域名，用WordPress做过一个功能一般的网站
+所以打算再做一个，于是网上搜了一下。
+使用github做服务器，花两天时间，
+用github、python、nodejs等工具完成。
 工具：Lean Cloud:统计UV多数：做评论百度：做数据统计
-安装过程：npm install hexo-cli -g -dhexo initnpm insta">
+安装过程：npm install hexo-cli -g -dhexo ini">
 
 
 
@@ -125,7 +124,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
+    scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
@@ -154,7 +153,7 @@
   <title> XingtanXue网站由来 | XingtanXue </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
 
@@ -216,34 +215,42 @@
     <ul id="menu" class="menu">
       
         
-        <li class="menu-item menu-item-首页">
+        <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-            menu.首页
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-列表">
+        <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
-            menu.列表
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-关于">
+        <li class="menu-item menu-item-about">
           <a href="/about" rel="section">
             
-            menu.关于
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-公益">
+        <li class="menu-item menu-item-commonweal">
           <a href="/404.html" rel="section">
             
-            menu.公益
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益
           </a>
         </li>
       
@@ -313,7 +320,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">发表于</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-26T13:03:43+08:00">
                 2017-01-26
@@ -329,9 +336,9 @@
                 <i class="fa fa-calendar-check-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Updated at</span>
+                <span class="post-meta-item-text">更新于</span>
               
-              <time title="Updated at" itemprop="dateModified" datetime="2017-01-30T12:50:18+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2017-01-30T20:03:24+08:00">
                 2017-01-30
               </time>
             
@@ -346,7 +353,7 @@
                 <i class="fa fa-folder-o"></i>
               </span>
               
-                <span class="post-meta-item-text">in</span>
+                <span class="post-meta-item-text">分类于</span>
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
@@ -400,19 +407,19 @@
       
 
       
-        <p>群里有个管理员自己做一个博客，并分享出来</p>
-<p>使用Hexo根据教程做的</p>
-<p>买了N多个域名，之前用WordPress做过一个，巨丑</p>
-<p>所以网上搜了一下</p>
-<p>使用github做服务器</p>
-<p>花两天时间完成</p>
-<p>用github、python、no.js等工具完成</p>
+        <p>有一天，</p>
+<p>群里有人用Hexo做一个博客，并分享出来。</p>
+<p>而自己之前买了N多域名，用WordPress做过一个功能一般的网站</p>
+<p>所以打算再做一个，于是网上搜了一下。</p>
+<p>使用github做服务器，花两天时间，</p>
+<p>用github、python、nodejs等工具完成。</p>
 <p>工具：<br>Lean Cloud:统计UV<br>多数：做评论<br>百度：做数据统计</p>
 <p>安装过程：<br>npm install hexo-cli -g -d<br>hexo init<br>npm install</p>
 <p>注意事项：<br>hexo是一种新的语法，命令后的冒号必须有空格<br>hexo new page “标签” 新建一个栏目<br>hexo new “我有一个中国梦” 新建一篇文章<br>用标准格式可以显示“标题”、“标签”和分类：</p>
 <h2 id="文章格式："><a href="#文章格式：" class="headerlink" title="文章格式："></a>文章格式：</h2><p>title: 标题<br>tags: 标签</p>
-<h2 id="categories-分类"><a href="#categories-分类" class="headerlink" title="categories: 分类"></a>categories: 分类</h2><p>网站部署：<br>hexo clean 删除本地的public文件<br>hexo g -d 生成并布署<br>hexo s 启动服务器本地查看 浏览器输入localhost:4000即可</p>
+<h2 id="categories-分类"><a href="#categories-分类" class="headerlink" title="categories: 分类"></a>categories: 分类</h2><p>网站部署：<br>hexo clean 删除本地的public文件<br>hexo g -d 生成并布署<br>hexo s 启动服务器本地查看 浏览器输入localhost:4000即可<br>npm install hexo-generator-feed –save #安装组件，自动生成atom.xml文件，方便别人订阅</p>
 <p>2017.1.30<br>今天又把网站美化一下，使用Next主题，并成功加入多说评论，好朋友一起快乐的玩耍！</p>
+<p><a href="https://segmentfault.com/markdown" target="_blank" rel="external">MarkDown更多语法：</a><a href="https://segmentfault.com/markdown" target="_blank" rel="external">https://segmentfault.com/markdown</a></p>
 
       
     </div>
@@ -445,8 +452,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/01/26/谈谈中国电影/" rel="next" title="谈谈中国电影">
-                <i class="fa fa-chevron-left"></i> 谈谈中国电影
+              <a href="/2017/01/26/漫谈互联网思维/" rel="next" title="我的互联网思维观">
+                <i class="fa fa-chevron-left"></i> 我的互联网思维观
               </a>
             
           </div>
@@ -510,10 +517,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Inhaltsverzeichnis
+            文章目录
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            Übersicht
+            站点概览
           </li>
         </ul>
       
@@ -530,9 +537,9 @@
         
           
             <div class="site-state-item site-state-posts">
-              <a href="/">
+              <a href="/archives">
                 <span class="site-state-item-count">4</span>
-                <span class="site-state-item-name">Artikel</span>
+                <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
@@ -541,7 +548,7 @@
             <div class="site-state-item site-state-categories">
               
                 <span class="site-state-item-count">4</span>
-                <span class="site-state-item-name">Kategorien</span>
+                <span class="site-state-item-name">分类</span>
               
             </div>
           
@@ -550,13 +557,20 @@
             <div class="site-state-item site-state-tags">
               
                 <span class="site-state-item-count">4</span>
-                <span class="site-state-item-name">Tags</span>
+                <span class="site-state-item-name">标签</span>
               
             </div>
           
 
         </nav>
 
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
         
 
         <div class="links-of-author motion-element">
@@ -614,13 +628,13 @@
 
 
 <div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 驱动
 </div>
 
 <div class="theme-info">
-  Theme -
+  主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
+    NexT.Pisces
   </a>
 </div>
 
@@ -703,6 +717,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
