@@ -46,48 +46,6 @@
   </entry>
   
   <entry>
-    <title>XingtanXue网站由来</title>
-    <link href="http://xingtanxue.com/2017/01/26/hello-world/"/>
-    <id>http://xingtanxue.com/2017/01/26/hello-world/</id>
-    <published>2017-01-26T05:03:43.000Z</published>
-    <updated>2017-01-31T04:36:58.598Z</updated>
-    
-    <content type="html"><![CDATA[<p>有一天，</p>
-<p>群里有人用Hexo做一个博客，并分享出来。</p>
-<p>而自己之前买了N多域名，用WordPress做过一个功能一般的网站</p>
-<p>所以打算再做一个，于是网上搜了一下。</p>
-<p>使用github做服务器，花两天时间，</p>
-<p>用github、python、nodejs等工具完成。</p>
-<p>工具：<br>Lean Cloud:统计UV<br>多数：做评论<br>百度：做数据统计</p>
-<p>安装过程：<br>npm install hexo-cli -g -d<br>hexo init<br>npm install</p>
-<p>注意事项：<br>hexo是一种新的语法，命令后的冒号必须有空格<br>hexo new page “标签” 新建一个栏目<br>hexo new “我有一个中国梦” 新建一篇文章<br>用标准格式可以显示“标题”、“标签”和分类：</p>
-<h2 id="文章格式："><a href="#文章格式：" class="headerlink" title="文章格式："></a>文章格式：</h2><p>title: 标题<br>tags: 标签</p>
-<h2 id="categories-分类"><a href="#categories-分类" class="headerlink" title="categories: 分类"></a>categories: 分类</h2><p>网站部署：<br>hexo clean 删除本地的public文件<br>hexo g -d 生成并布署<br>hexo s 启动服务器本地查看 浏览器输入localhost:4000即可<br>npm install hexo-generator-feed –save #安装组件，自动生成atom.xml文件，方便别人订阅</p>
-<p>2017.1.30<br>今天又把网站美化一下，使用Next主题，并成功加入多说评论，好朋友一起快乐的玩耍！</p>
-<p><a href="https://segmentfault.com/markdown" target="_blank" rel="external">MarkDown更多语法：</a><a href="https://segmentfault.com/markdown" target="_blank" rel="external">https://segmentfault.com/markdown</a></p>
-<p><a href="https://zhidao.baidu.com/question/551705592.html" target="_blank" rel="external">IP直接跳转到其他网站：</a><br>修改hosts<br>C:\Windows\System32\drivers\etc\</p>
-<p>图片不显示：<br>将图片命名的“-”改为”_”即可</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;有一天，&lt;/p&gt;
-&lt;p&gt;群里有人用Hexo做一个博客，并分享出来。&lt;/p&gt;
-&lt;p&gt;而自己之前买了N多域名，用WordPress做过一个功能一般的网站&lt;/p&gt;
-&lt;p&gt;所以打算再做一个，于是网上搜了一下。&lt;/p&gt;
-&lt;p&gt;使用github做服务器，花两天时间，&lt;/p&gt;
-&lt;p&gt;用g
-    
-    </summary>
-    
-      <category term="感悟" scheme="http://xingtanxue.com/categories/gnosis/"/>
-    
-    
-      <category term="网站" scheme="http://xingtanxue.com/tags/%E7%BD%91%E7%AB%99/"/>
-    
-  </entry>
-  
-  <entry>
     <title>我的互联网思维观</title>
     <link href="http://xingtanxue.com/2017/01/26/%E6%BC%AB%E8%B0%88%E4%BA%92%E8%81%94%E7%BD%91%E6%80%9D%E7%BB%B4/"/>
     <id>http://xingtanxue.com/2017/01/26/漫谈互联网思维/</id>
@@ -128,6 +86,48 @@
     
     
       <category term="电影" scheme="http://xingtanxue.com/tags/%E7%94%B5%E5%BD%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>XingtanXue网站由来</title>
+    <link href="http://xingtanxue.com/2017/01/26/hello-world/"/>
+    <id>http://xingtanxue.com/2017/01/26/hello-world/</id>
+    <published>2017-01-26T05:03:43.000Z</published>
+    <updated>2017-01-31T04:36:58.598Z</updated>
+    
+    <content type="html"><![CDATA[<p>有一天，</p>
+<p>群里有人用Hexo做一个博客，并分享出来。</p>
+<p>而自己之前买了N多域名，用WordPress做过一个功能一般的网站</p>
+<p>所以打算再做一个，于是网上搜了一下。</p>
+<p>使用github做服务器，花两天时间，</p>
+<p>用github、python、nodejs等工具完成。</p>
+<p>工具：<br>Lean Cloud:统计UV<br>多数：做评论<br>百度：做数据统计</p>
+<p>安装过程：<br>npm install hexo-cli -g -d<br>hexo init<br>npm install</p>
+<p>注意事项：<br>hexo是一种新的语法，命令后的冒号必须有空格<br>hexo new page “标签” 新建一个栏目<br>hexo new “我有一个中国梦” 新建一篇文章<br>用标准格式可以显示“标题”、“标签”和分类：</p>
+<h2 id="文章格式："><a href="#文章格式：" class="headerlink" title="文章格式："></a>文章格式：</h2><p>title: 标题<br>tags: 标签</p>
+<h2 id="categories-分类"><a href="#categories-分类" class="headerlink" title="categories: 分类"></a>categories: 分类</h2><p>网站部署：<br>hexo clean 删除本地的public文件<br>hexo g -d 生成并布署<br>hexo s 启动服务器本地查看 浏览器输入localhost:4000即可<br>npm install hexo-generator-feed –save #安装组件，自动生成atom.xml文件，方便别人订阅</p>
+<p>2017.1.30<br>今天又把网站美化一下，使用Next主题，并成功加入多说评论，好朋友一起快乐的玩耍！</p>
+<p><a href="https://segmentfault.com/markdown" target="_blank" rel="external">MarkDown更多语法：</a><a href="https://segmentfault.com/markdown" target="_blank" rel="external">https://segmentfault.com/markdown</a></p>
+<p><a href="https://zhidao.baidu.com/question/551705592.html" target="_blank" rel="external">IP直接跳转到其他网站：</a><br>修改hosts<br>C:\Windows\System32\drivers\etc\</p>
+<p>图片不显示：<br>将图片命名的“-”改为”_”即可</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;有一天，&lt;/p&gt;
+&lt;p&gt;群里有人用Hexo做一个博客，并分享出来。&lt;/p&gt;
+&lt;p&gt;而自己之前买了N多域名，用WordPress做过一个功能一般的网站&lt;/p&gt;
+&lt;p&gt;所以打算再做一个，于是网上搜了一下。&lt;/p&gt;
+&lt;p&gt;使用github做服务器，花两天时间，&lt;/p&gt;
+&lt;p&gt;用g
+    
+    </summary>
+    
+      <category term="感悟" scheme="http://xingtanxue.com/categories/gnosis/"/>
+    
+    
+      <category term="网站" scheme="http://xingtanxue.com/tags/%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
