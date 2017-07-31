@@ -70,7 +70,7 @@
     <link href="http://xingtanxue.com/2017/01/26/hello-world/"/>
     <id>http://xingtanxue.com/2017/01/26/hello-world/</id>
     <published>2017-01-26T05:03:43.000Z</published>
-    <updated>2017-07-31T02:01:45.483Z</updated>
+    <updated>2017-07-31T02:07:35.960Z</updated>
     
     <content type="html"><![CDATA[<p>有一天，</p>
 <p>群里有人用Hexo做一个博客，并分享出来。</p>
@@ -95,6 +95,8 @@
 <li>hexo new “我有一个中国梦” 新建一篇文章</li>
 <li>用标准格式可以显示“标题”、“标签”和分类：</li>
 <li>修改文章，不用重启（即再执行一遍hexo命令）即可预览</li>
+<li>发布文件要先执行”hexo clean”，再执行”hexo g”才可以</li>
+<li>发布到github上后，会稍1分钟才会显示</li>
 </ul>
 <p>###问题</p>
 <ul>
