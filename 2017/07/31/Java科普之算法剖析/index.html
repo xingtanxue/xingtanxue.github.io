@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="微信," />
+  <meta name="keywords" content="算法," />
 
 
 
@@ -86,21 +86,16 @@
 
 
 
-<meta name="description" content="即时通信：前端获得消息发送到服务端，服务端处理后通过推送的方式，给到接收方；Android使用长连机制，联通网络长连十几分钟，电信仅五六分钟，因此需要根据测试的芯片类型，为了保活，可能要三四分钟就要去连一次，叫心跳机制；IOS通过APN机制推送。即时通讯是在一种平等、开放情况下的互动，这点很重要。
- 推送：采用增量推送的方式，设置一个sequence，服务端一个客户端一个，每次同步时客户端将cu">
+<meta name="description" content="从小白晋升，一路走来；从helloworld，到JFrame，再到Android；从城外小子，到内城的阶梯，站在高耸入云的阶梯上向前望；从迷茫的时代，到苦逼的时代，再到自信的时代；这些路有些艰难，有些坎坷，但–还算顺利；有过困惑，有过烦恼，有过委屈，但一路向前，风雨无阻；前言是遥远的，前方是未知的，前方是广阔的，前方是美好的；我要呼吁广大IT同胞们，让我们向着更遥远、更广阔、更美好的充满未知">
 <meta property="og:type" content="article">
-<meta property="og:title" content="研究微信技术问题">
-<meta property="og:url" content="http://xingtanxue.com/2017/01/27/研究微信技术问题/index.html">
+<meta property="og:title" content="Java科普之算法剖析">
+<meta property="og:url" content="http://xingtanxue.com/2017/07/31/Java科普之算法剖析/index.html">
 <meta property="og:site_name" content="XingtanXue">
-<meta property="og:description" content="即时通信：前端获得消息发送到服务端，服务端处理后通过推送的方式，给到接收方；Android使用长连机制，联通网络长连十几分钟，电信仅五六分钟，因此需要根据测试的芯片类型，为了保活，可能要三四分钟就要去连一次，叫心跳机制；IOS通过APN机制推送。即时通讯是在一种平等、开放情况下的互动，这点很重要。
- 推送：采用增量推送的方式，设置一个sequence，服务端一个客户端一个，每次同步时客户端将cu">
-<meta property="og:image" content="http://xingtanxue.com/img/pay/wechat_reward_image.jpg">
-<meta property="og:updated_time" content="2017-07-31T01:57:03.520Z">
+<meta property="og:description" content="从小白晋升，一路走来；从helloworld，到JFrame，再到Android；从城外小子，到内城的阶梯，站在高耸入云的阶梯上向前望；从迷茫的时代，到苦逼的时代，再到自信的时代；这些路有些艰难，有些坎坷，但–还算顺利；有过困惑，有过烦恼，有过委屈，但一路向前，风雨无阻；前言是遥远的，前方是未知的，前方是广阔的，前方是美好的；我要呼吁广大IT同胞们，让我们向着更遥远、更广阔、更美好的充满未知">
+<meta property="og:updated_time" content="2017-07-31T10:30:10.491Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="研究微信技术问题">
-<meta name="twitter:description" content="即时通信：前端获得消息发送到服务端，服务端处理后通过推送的方式，给到接收方；Android使用长连机制，联通网络长连十几分钟，电信仅五六分钟，因此需要根据测试的芯片类型，为了保活，可能要三四分钟就要去连一次，叫心跳机制；IOS通过APN机制推送。即时通讯是在一种平等、开放情况下的互动，这点很重要。
- 推送：采用增量推送的方式，设置一个sequence，服务端一个客户端一个，每次同步时客户端将cu">
-<meta name="twitter:image" content="http://xingtanxue.com/img/pay/wechat_reward_image.jpg">
+<meta name="twitter:title" content="Java科普之算法剖析">
+<meta name="twitter:description" content="从小白晋升，一路走来；从helloworld，到JFrame，再到Android；从城外小子，到内城的阶梯，站在高耸入云的阶梯上向前望；从迷茫的时代，到苦逼的时代，再到自信的时代；这些路有些艰难，有些坎坷，但–还算顺利；有过困惑，有过烦恼，有过委屈，但一路向前，风雨无阻；前言是遥远的，前方是未知的，前方是广阔的，前方是美好的；我要呼吁广大IT同胞们，让我们向着更遥远、更广阔、更美好的充满未知">
 
 
 
@@ -128,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="http://xingtanxue.com/2017/01/27/研究微信技术问题/"/>
+  <link rel="canonical" href="http://xingtanxue.com/2017/07/31/Java科普之算法剖析/"/>
 
 
 
 
 
-  <title> 研究微信技术问题 | XingtanXue </title>
+  <title> Java科普之算法剖析 | XingtanXue </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -267,7 +262,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://xingtanxue.com/2017/01/27/研究微信技术问题/">
+  <link itemprop="mainEntityOfPage" href="http://xingtanxue.com/2017/07/31/Java科普之算法剖析/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="Liuxian">
@@ -291,7 +286,7 @@
             
             
               
-                研究微信技术问题
+                Java科普之算法剖析
               
             
           </h2>
@@ -306,8 +301,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-27T12:11:37+08:00">
-                2017-01-27
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-07-31T18:21:53+08:00">
+                2017-07-31
               </time>
             
 
@@ -322,7 +317,7 @@
               
                 <span class="post-meta-item-text">更新于</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-07-31T09:57:03+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2017-07-31T18:30:10+08:00">
                 2017-07-31
               </time>
             
@@ -359,8 +354,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2017/01/27/研究微信技术问题/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/27/研究微信技术问题/" itemprop="commentCount"></span>
+                <a href="/2017/07/31/Java科普之算法剖析/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/07/31/Java科普之算法剖析/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -391,14 +386,71 @@
       
 
       
-        <p> 即时通信：前端获得消息发送到服务端，服务端处理后通过推送的方式，给到接收方；Android使用长连机制，联通网络长连十几分钟，电信仅五六分钟，因此需要根据测试的芯片类型，为了保活，可能要三四分钟就要去连一次，叫心跳机制；IOS通过APN机制推送。即时通讯是在一种平等、开放情况下的互动，这点很重要。</p>
-<p> 推送：采用增量推送的方式，设置一个sequence，服务端一个客户端一个，每次同步时客户端将cur_seq发给服务端，获得增量数据同步到本地。每个seq都是long型占8byte，考虑到微信用户6亿，Qps达到千万级别，则每秒要处理100兆的IO，相对来说比较大，如何降低呢，微信有一个AllocSvr和StoreSvr两个服务，分别来处理分配和存储，设计一个max_Seq和步长，将一定数量的用户比如连续ID一万个，设计在同一个Section，加上一个max_Seq，步长设为10000，此时可以10^3个等级的数据量，相对AllocSvr处理就简单一些，所以任何一个简单的事情在海量数据下，都会变成一个复杂的问题。另外添加步长，就涉及Old AllocSvr和New AllocSvr，需要根据已知配置文件，有哪些服务器可以切换，考虑到容灾还要做备份服务器，因此做互为备份是服务器能力不浪费的优秀设计；路由的切换也是根据seq的方式，使用路由表来切换的。</p>
-<p> 红包：活动前将资源通过消息的方式同步到客户端，防止活动当天同步资源造成浪费。每十万级的红包放一个包裹，加入票据，争取更多的资金能够进来，将分配规则写入客户端，然后将红包写入用户，异步对账后同步到账户里；要避免1、不存在的红包分配给用户2、红包分配金额有误 3、红包发给不存在的人 4、红包重复发给一个人 5、红包重复发给其他人6、防止黑客攻击，每个包裹写一个公私钥，同时可以手工屏蔽某些密钥对，保证其中一对密钥被盗，其他仍然可以正常使用。以及采用qos将请求主动失败，分两种系统失败可以重试，逻辑失败则失败 ；由于对大广告主如5000万以上的做过系统配合，但也要在参与用户少的时候，保证用户抢红包的流畅性，进行降低处理。</p>
-<p> Android：刚开始业务为主，随着业务量增大，逐渐改为功能为主，然后规划多个dex，甚至将相应服务新开进程执行；秉承用户体验的观点，复杂的逻辑一般放在服务端做，客户端仅做展示功能；安全方面，每次登录给予一个票据，用于服务端检验发送的信息是否合法；将主业务与工具和后台业务分开，分多个进程处理，可以明显降低内存和电量的消耗。</p>
-<p> 斑马广告：采用对一群人画像如1万人，而不对1个人进行画像分析，每个人加入标签，如年龄、旅游、科技等，如果需要5000万定向客户，而实际标签不足时，需要通过lookalike系统查找潜在的和之前尚未分析出的客户，准确率达到16%左右；标签标的有：朋友圈发的消息、广告的点击和互动、公众号的类型、店家wifi的登入等，对聊天记录腾讯有天然的敏感性，不进行分析。</p>
-<p> 朋友圈：自己的timeline即自己发的信息，好友的timeline即公用区域发的信息，这个都以用户为单位，将timeline分两类，自己和好友，自己的直接显示，好友的插入自己的消息，这是实现的第一步；第二位是交互，好友发一条消息，第一：哪些人可见哪些人不可见，好友这边呢，操作是直接插入到可见好友的timleline，不可见好友收到的是相反的消息即不插入，第二：哪些是共同的好友，评论和点赞彼此收的到，实际出现三个对象，你、我、其他人，三者均需要一个消息推送（实际情况更复杂，多个直接跟你互相的人即是你，你的好友中非彼此好友的人即是其他人），最终采用增量推送的方式。</p>
-<p> 后端：消息分五类，红包，文本和语音，图片和视频、群消息、朋友圈，优先保证第一项服务可用，然后保证第二项服务可用，最后再保证朋友圈可用，这是消息优先级，在信息量巨大时可以人工触发开关处理；考虑到国内外通讯，香港地区延时100-200ms，欧美约300-500ms，国外的消息即就近处理，并且放在就近的服务器上，上海保证北方区，深圳保证南方区，香港保证东亚区，加拿大保证欧美区，这样一方面保证应用的国外战略得以实施，另一方面消息分流减轻服务器的压力；值得讲的一点是不同区之间的消息通讯，比如北方区的A和东南亚区的B，A发送消息，存储在上海服务器，然后推送到香港服务器，由香港区推送给B，减少https公网的等待时间，另外一点如果此人经常全球跑，则数据会漫游到国内数据中心处理，否则经常切换数据中心和服务备份，会浪费大量资源，增加系统冗余。<br> 接下来聊几个服务端的点<br> 数据接入-数据处理（逻辑处理-数据读写）-数据持久化（数据存储）<br> Qos：quality of service 服务质量，网络请求会分发到很多数据中心进行处理，而每个路由都有一个buffer，超过后则丢弃，否则数据积压导致各方数据均不能有效处理，而各种服务瘫痪；传输顺序出错和其他出错，需要有相关协议保证重试。<br> Cgi：common gateway interface 大量用户发送的请求，后台会有无数个cgi程序都保证正确处理，比如消息推送和消息同步<br> 容灾：设计3的倍数个数据中心，保证每个数据中心有2/3的数据处理峰值，这样在其中1/3个中心瘫痪时，其他2/3的中心可以接收它的处理能力。<br> 埋点：与测试团队沟通容易出错的地方，做key-value增加策略，key为关键点的id，value为关键点数据+1的值，在后台展示和处理，达到预警则及时处理，达到早发现、早处理的目的，这也是容灾的一部分；另一部分是与产品团队，共同开发出业务的使用频率，为后面的产品设计和架构设计提供良好的数据支撑。<br> RPC：同步处理的消息往往是有限的，异步可以大限度的压榨服务器的处理能力，如微信开发的SvrKit，用户发出请求后，交付中间件异步处理，并提供出错重试协议，保证消息被正确处理。<br> 数据IO：读写在大量数据交互的应用上显示尤为重要，提供memcache防止频繁访问数据库，提供多Master-Slave提供数据读写服务，如海外A的消息存储在加拿大，国内B的消息存储在上海，这就是两个Master，两者通信通过RPC推送到对方数据中心即可，Slave用在Master出问题时的备用存储方案，事后要两者要互相同步。<br> 图片：用户发送后放到CDN处理，返回大图和缩略图链接，加到消息对象中，返回客户端。<br> 同步：采用seq增量下发消息的方式，对邮件、漂流瓶等进行key-value的判断拉取数据。<br> 安全：每次登录都带有票据，票据用密钥对+ID来处理，可以随时定向失效密钥。</p>
-<p> <img src="/img/pay/wechat_reward_image.jpg" width="300" height="450"></p>
+        <p>   从小白晋升，一路走来；从helloworld，到JFrame，再到Android；从城外小子，到内城的阶梯，站在高耸入云的阶梯上向前望；从迷茫的时代，到苦逼的时代，再到自信的时代；这些路有些艰难，有些坎坷，但–还算顺利；有过困惑，有过烦恼，有过委屈，但一路向前，风雨无阻；前言是遥远的，前方是未知的，前方是广阔的，前方是美好的；我要呼吁广大IT同胞们，让我们向着更遥远、更广阔、更美好的充满未知的未来出发吧！去贪婪的吮吸每一滴“蜜露”，用知识的精髓武装自己，斗志昂扬一如既往的用兴趣开路，去探寻属于自己的一片天地！</p>
+<p>今天冒昧给大家讲讲算法的故事。</p>
+<p>在从简单的逻辑写起，从完成一个控件、多个控件，走了一条线程、一条进程；到完成一个模块、若干模块，实现界面之间的交互、控件自定义；再到缓存、数据库、网络交互，内存管理、系统调优、架构扩展；最后又回归逻辑、研究算法，研究层与层之间的调用、依赖，抽象、继承、接口、反射等一些基础的概念；简而言之，把最简单的东西做到极致，那牛逼了！</p>
+<p>百度解释：算法复杂度分为时间复杂度和空间复杂度。其作用： 时间复杂度是指执行算法所需要的计算工作量；而空间复杂度是指执行这个算法所需要的内存空间。（算法的复杂性体现在运行该算法时的计算机所需资源的多少上，计算机资源最重要的是时间和空间（即寄存器）资源，因此复杂度分为时间和空间复杂度。）<br>接下来依次讲几个算法，冒泡、选择……</p>
+<p>####冒泡算法原理：两个两个的比较，其中较大的与较小的换位，每次都能排出剩下数中的最大数，放剩下数的最后；最终排出整齐的数列。 </p>
+<ul>
+<li>时间复杂度:倒序最大,Cmax=n*(n-1)/2,为T(n^2)；正序最小，Cmin=n,为T（n）；按实际情况来算。</li>
+<li>空间复杂度为：最坏情况，每两个就要换一回，则为n/2+(n-1)/2+……+2/2=n(n+1)/4，Omax=O(n^2)；最好情况，已排好，则为O(0)。</li>
+<li>代码如下：</li>
+</ul>
+<p>public void testBubbleSort() {<br>int[] sortArray = { 4, 7, 9, 3, 6, 8,11 };<br>for (int i = 0; i &lt; sortArray.length-1 ; i++) {<br>    boolean isSort = false;<br>    for (int j = 0; j &lt; sortArray.length -1-i; j++) {<br>        if (sortArray[j] &gt; sortArray[j + 1]) {<br>            int temp = sortArray[j];<br>            sortArray[j] = sortArray[j + 1];<br>            sortArray[j + 1] = temp;<br>            isSort = true;<br>        }<br>    }<br>    if (!isSort)<br>        break;<br>}<br>System.out.println(Arrays.toString(sortArray));  </p>
+<p>####选择排序原理：第一次，首个与后面的进行比较，把最小的放首位；第二次，次个与后面的进行比较，把次小的放次位；依次进行。</p>
+<ul>
+<li>与冒泡的区别在于：选择排序找出最小的下标，然后与此次开始位置数字置换，冒泡需要两个两个的换位置；从这个意义上来说，选择排序占用内存更少，拥有更小的空间复杂度。</li>
+<li>时间复杂度：最坏情况，n(n+1)/2，为Tmax=T(n^2)；最好情况，已排好，则为T(n)。</li>
+<li>空间复杂度；最坏情况为O(n)，最好为O(0)，分别为正好相反或已排好。</li>
+<li>代码如下：</li>
+</ul>
+<p>public void testChooseSort() {<br>[html] view plain copy print?<br>int min;<br>for (int i = 0; i &lt; sortArray.length - 1; i++) {<br>    min = i;<br>    for (int j = i + 1; j &lt; sortArray.length - 1 - i; j++) {<br>        if (sortArray[min] &gt; sortArray[j]) {<br>            min = j;<br>        }<br>    }<br>    if(min!=i){<br>        int temp=sortArray[min];<br>        sortArray[min]=sortArray[i];<br>        sortArray[i]=temp;<br>    }<br>}<br>System.out.println(Arrays.toString(sortArray));  </p>
+<p>###其他有趣算法：</p>
+<p>###如赛马问题</p>
+<p>####25匹马，5个赛道，如何在不用工具的情况下，找到最快的5匹。问题可以简化为3匹马，3个赛道。</p>
+<ul>
+<li>分A B C三组马，各赛一场，结果如下：</li>
+<li>A1 A2 A3</li>
+<li>B1 B2 B3</li>
+<li>C1 C2 C3</li>
+<li>3场第1名赛一场，得出第1名</li>
+<li>如果是A1，则A2跟B1和C1比1场，其他同理，找出第2名</li>
+<li>如果是B1，则A2跟B2和C1比1场，其他同理，找出第3名</li>
+<li>比赛结束，共需要6场</li>
+<li>同理可算出，25匹马需要10场。</li>
+</ul>
+<p>###如运煤问题</p>
+<p>####3000吨煤，用载重1000吨的火车，从原点运往终点，路程1000公里，每公里消耗1吨煤，到终点时煤剩几何？</p>
+<p>####粗略一算，第一种方案：</p>
+<ul>
+<li>第一轮，</li>
+<li>第1次，先拉1000吨到A，卸下500吨，返回，行程250公里</li>
+<li>第2次，再拉1000吨到A，卸下500吨，返回，行程250公里，同理第三次</li>
+<li>第3次后，A地剩下1500吨煤，行程250公里</li>
+<li>第二轮</li>
+<li>继续第4次，同上，到B地行程187.5公里，每次卸下375吨货物</li>
+<li>两轮后，行程437.5公里，剩下货物750吨</li>
+<li>第三轮</li>
+<li>一次性运到，共剩余312.5吨</li>
+<li>分析：由于第三轮每次只运750吨，运量未满，导致最终运送较少。</li>
+</ul>
+<p>####粗略一算，第二种方案：</p>
+<ul>
+<li>第1次，先拉1000吨到A，卸下500吨，行程250公里，返回</li>
+<li>第2次，再拉1000吨到A，加上250吨满载，剩下250吨；走250公里到B，卸下250吨，总行程250公里，返回</li>
+<li>第3次，再拉1000吨到A，加上250吨满载；再走250公里到B，加上前两次剩下的共500吨，满载1000吨继续，直行到终点，共剩余500吨</li>
+<li>分析：似乎比较完美，每次都是满载。</li>
+</ul>
+<h4 id="粗略一算，第三种方案："><a href="#粗略一算，第三种方案：" class="headerlink" title="粗略一算，第三种方案："></a>粗略一算，第三种方案：</h4><ul>
+<li>变下思路，将此题变成n千吨煤，可以走多少公里，即消耗多少</li>
+<li>那么1000吨走1000公里，2000吨由于中间要折回+第1次向前走共3次即1000*（1+1/3)公里，同理可得3000吨走</li>
+<li>1000<em>（1+1/3+1/5）公里，n千吨可走1000</em>（1+1/3+1/5+……+1/(2n-1)）公里<br>那么3000公里剩余多少呢？前两句已经讲了3000吨可走的公里，每公里1吨，多出多少公里即多出多少吨</li>
+<li>即1000*（1+1/3+1/5）-1000=1600/3吨，即533.33吨。功夫不负有心人，这就是最终答案！</li>
+</ul>
+<p>###再如扔鸡蛋问题</p>
+<h4 id="100层楼，2个蛋，n层楼以下扔下不碎，以上碎，问要扔几次才能确认？"><a href="#100层楼，2个蛋，n层楼以下扔下不碎，以上碎，问要扔几次才能确认？" class="headerlink" title="100层楼，2个蛋，n层楼以下扔下不碎，以上碎，问要扔几次才能确认？"></a>100层楼，2个蛋，n层楼以下扔下不碎，以上碎，问要扔几次才能确认？</h4><ul>
+<li>则声明有x次机会，则最多可能尝试的总楼层数为，x+(x-1)+(x-2)+……+1=x*(x-1)/2<br>如果100层，则判断小于100即可，结果呢为为14，即至少要扔14次（则从14层开始扔）</li>
+</ul>
 
       
     </div>
@@ -422,7 +474,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/微信/" rel="tag"># 微信</a>
+            <a href="/tags/算法/" rel="tag"># 算法</a>
           
         </div>
       
@@ -431,8 +483,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/01/26/hello-world/" rel="next" title="XingtanXue网站由来">
-                <i class="fa fa-chevron-left"></i> XingtanXue网站由来
+              <a href="/2017/07/31/AI将带我们去何方？/" rel="next" title="AI将带我们去何方？">
+                <i class="fa fa-chevron-left"></i> AI将带我们去何方？
               </a>
             
           </div>
@@ -440,10 +492,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/02/20/写在毕业7年的边上/" rel="prev" title="写在毕业7年的边上">
-                写在毕业7年的边上 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -469,8 +517,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2017/01/27/研究微信技术问题/"
-           data-title="研究微信技术问题" data-url="http://xingtanxue.com/2017/01/27/研究微信技术问题/">
+      <div class="ds-thread" data-thread-key="2017/07/31/Java科普之算法剖析/"
+           data-title="Java科普之算法剖析" data-url="http://xingtanxue.com/2017/07/31/Java科普之算法剖析/">
       </div>
     
   </div>
@@ -494,8 +542,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/img/social/avatar.jpg"
@@ -558,6 +615,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#粗略一算，第三种方案："><span class="nav-number">1.</span> <span class="nav-text">粗略一算，第三种方案：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#100层楼，2个蛋，n层楼以下扔下不碎，以上碎，问要扔几次才能确认？"><span class="nav-number">2.</span> <span class="nav-text">100层楼，2个蛋，n层楼以下扔下不碎，以上碎，问要扔几次才能确认？</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
     </div>
